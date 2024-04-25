@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  background: #f4d04e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  width: 384px;
+  height: 522px;
+  padding: 24px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 8px 8px 0 0 #000;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #111;
+  pointer-events: none;
+}
+
+.img-banner {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card-container {
+  width: 100%;
+  margin: 0;
+  padding-top: 24px;
+}
+
+.card-container--tag {
+  width: 82px;
+  height: 29px;
+  background: #f4d04e;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #111;
+}
+
+.card-container--published {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+h1 {
+  padding-top: 12px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  pointer-events: all;
+}
+
+.main-card:hover {
+  box-shadow: 16px 16px 0 0 #000;
+}
+
+h1:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f7f7f;
+}
+
+.card-container--user {
+  padding-top: 24px;
+  width: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container--user img {
+  height: 32px;
+  display: 32px;
+}
+.card-container--user span {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+p,
+h1,
+h2,
+span {
+  font-family: "Figtree", sans-serif;
+}
+
+.first-footer{
+    font-family: "Figtree", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+}
+
+a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
