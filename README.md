@@ -8,7 +8,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ![alt text](image.png)
 
 ### Links
-- Github Site URL: [Josmiga - Blog preview card](https://github.com/Josmiga/fm-preview-card)
+- Github Site URL: [Josmiga - Blog preview card](https://josmiga.github.io/fm-preview-card/)
 
 ## My process
 ### Built with
